@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="50dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellido"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="71dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Telefono" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ciudad"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="475dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="147dp"
+            android:layout_weight="1"
+            android:background="@drawable/editar" />
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="136dp"
+            android:layout_weight="1"
+            android:background="@drawable/eliminar" />
+    </LinearLayout>
+</LinearLayout>
